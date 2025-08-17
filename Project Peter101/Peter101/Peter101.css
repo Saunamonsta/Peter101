@@ -1,0 +1,26 @@
+body{font-family:Arial,sans-serif;transition:background-color 0.3s ease,color 0.3s ease;cursor:auto;}
+
+.rainbow{text-align:center;}
+.rainbow_text_animated{background:linear-gradient(to left,#ff640a,red);background-clip:text;color:transparent;animation:rainbow_animation 5s ease-in-out infinite;background-size:400% 100%;}
+@keyframes rainbow_animation{0%,100%{background-position:0 0;}50%{background-position:100% 0;}}
+
+#rounded-image{display:block;margin:auto;width:540px;border-radius:30px;border:2px solid black;cursor:none;}
+
+.toggle-button{position:fixed;top:10px;right:10px;padding:10px 20px;background-color:#333;color:white;border:none;border-radius:5px;cursor:pointer;font-size:14px;transition:background-color 0.3s ease,color 0.3s ease;}
+.toggle-button:hover{background-color:#555;}
+.button{padding:10px 20px;border:2px solid black;border-radius:10px;background-color:grey;cursor:pointer;font-size:16px;transition:background-color 0.3s,color 0.3s;}
+#toggleWindowButton{position:fixed;top:10px;right:10px;border-radius:5px 5px 0 0;}
+#colorWindow{position:fixed;top: 50px;right:10px;width:300px;padding:10px;border:2px solid black;border-radius:10px 0 10px 10px;background-color:grey;box-shadow:0 4px 8px rgba(0,0,0,0.2);text-align:center;display:none;}
+#colorWindow h2{margin-bottom:0px;color:black;}
+#colorWindow .button{display:block;margin:1px auto;width:100%;background-color:black;color:white;}
+
+main{display:flex;justify-content:center;}
+
+.tables-container{display:flex;gap:10px;}
+table{border:3px solid;border-radius:10px;border-color:orangered;}
+table td{display:flex;justify-content:space-evenly;}
+footer{position:absolute;bottom:10px;left:10px;display:flex;gap:10px;align-items:center;filter:drop-shadow(4px 4px 4px black);}
+
+.Logo{position:fixed;bottom:15px;right:15px;}
+
+::-webkit-scrollbar{width:0px;}
