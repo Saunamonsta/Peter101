@@ -1,3 +1,4 @@
-body{background-color:black;color:orangered;font-family:cursive;font-size:15px;}
+body{background-color:black;color:orangered;font-family:arial;font-size:15px;}
 .gap{display:grid;gap:30px;}
+
 ::-webkit-scrollbar{width:0px;}
